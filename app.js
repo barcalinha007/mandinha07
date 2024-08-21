@@ -2,6 +2,8 @@ alert('Boas vindas ao numero secreto');
 let numeroSecreto = 6;
 console.log(numeroSecreto)
 let chute
+let
+tentativas = 1;
 
 //enquanto chute não for igual ao numero Secreto
 while (chute!= numeroSecreto) {
@@ -17,4 +19,6 @@ alert('O numeroSecreto é menor que ${chute}');
 alert('O numeroSecreto é maior que ${chute}');
 }
 }
+ //tentativas = tentativas + 1;
+ tentativas++;
 }
